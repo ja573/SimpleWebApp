@@ -8,7 +8,10 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
         if (query.toLowerCase().contains("javi")) {
-            return "Javier Arias ";
+            return "Javier Arias";
+        }
+        if (query.toLowerCase().contains("rubhan")) {
+            return "Rubhan Raj";
         }
         return "";
     }
